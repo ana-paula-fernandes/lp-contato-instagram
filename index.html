@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ana Paula // Sites e Automação com IA — Contato</title>
+<meta name="description" content="Sites com interfaces modernas e/ou automação com IA. Conte sua necessidade e envie um e-mail para Ana Paula, desenvolvedora front-end e gestora de automação.">
+<meta name="theme-color" content="#241333">
+<meta name="color-scheme" content="dark">
+
+<!-- Política de segurança: só carrega recursos do próprio site e envia o formulário ao FormSubmit.
+     Se um dia adicionar analytics ou outros scripts, inclua o domínio deles aqui. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src https://formsubmit.co; form-action https://formsubmit.co; base-uri 'self'; object-src 'none'">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Ana Paula // Sites e Automação com IA">
+<meta property="og:description" content="Sites com interfaces modernas e/ou automação com IA. Qual é sua necessidade?">
+
+<!-- Favicon (logo AP) -->
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<!-- Desempenho: fontes locais pré-carregadas, CSS único, sem frameworks -->
+<link rel="preload" href="assets/fonts/orbitron-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inconsolata-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/ana-paula-corte.webp" as="image" type="image/webp" fetchpriority="high">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/contact.js" defer></script>
+</head>
+<body>
+
+<!-- Ícones reutilizáveis -->
+<svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-user" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></g></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></g></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></g></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/></g></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></g></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m20 6-11 11-5-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></g></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#form-title">Ir para o formulário de contato</a>
+<div class="bg" aria-hidden="true"></div>
+
+<main class="stage">
+
+  <a class="brand" href="./" aria-label="Ana Paula Tech — início">
+    <img class="brand__mark" src="assets/logo-mark.webp" width="160" height="99" alt="">
+    <span class="brand__name">Ana Paula <span>//</span> Tech</span>
+  </a>
+
+  <section class="intro" aria-labelledby="hero-title">
+    <span class="badge"><i aria-hidden="true"></i>Disponível para projetos</span>
+
+    <h1 class="headline" id="hero-title">Sites com interfaces modernas e/ou automação com IA. <em>Qual é sua necessidade?</em></h1>
+
+    <div class="portrait">
+      <picture>
+        <img src="assets/ana-paula-corte.webp" width="610" height="738" fetchpriority="high" decoding="async"
+             alt="Ana Paula, desenvolvedora front-end e gestora de automação, usando capacete e traje futurista em tons de roxo e prata">
+      </picture>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="form-title">
+    <header class="card__head">
+      <p class="eyebrow">&gt;_ Canal de comunicação direta</p>
+      <h2 class="card__title" id="form-title" tabindex="-1">Vamos Conversar?</h2>
+      <p class="card__lead">Tecnologia a favor do seu negócio. Preencha os campos abaixo para enviar um <span class="hl">e-mail</span> direto.</p>
+    </header>
+
+    <form class="form" id="contact-form" method="POST" action="https://formsubmit.co/anapaula.devcode@gmail.com" autocomplete="on">
+
+      <div class="field" data-field="name">
+        <label class="field__label" for="f-name">Seu nome completo <span class="req" aria-hidden="true">*</span></label>
+        <div class="control">
+          <svg class="icon" aria-hidden="true"><use href="#i-user"/></svg>
+          <input class="input" id="f-name" name="name" type="text" autocomplete="name" maxlength="100"
+                 placeholder="Ex: Marina Silva" required aria-required="true" aria-describedby="err-name">
+        </div>
+        <p class="field__error" id="err-name" hidden></p>
+      </div>
+
+      <div class="field" data-field="email">
+        <label class="field__label" for="f-email">Seu <span class="hl">e-mail</span> corporativo ou pessoal <span class="req" aria-hidden="true">*</span></label>
+        <div class="control">
+          <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+          <input class="input" id="f-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="254"
+                 spellcheck="false"
+                 placeholder="nome@empresa.com.br" required aria-required="true" aria-describedby="err-email">
+        </div>
+        <p class="field__error" id="err-email" hidden></p>
+      </div>
+
+      <div class="field" data-field="type">
+        <label class="field__label" for="f-type">Tipo de projeto ou demanda <span class="req" aria-hidden="true">*</span></label>
+        <div class="control">
+          <svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>
+          <select class="input" id="f-type" name="tipo_de_projeto" required aria-required="true" aria-describedby="err-type">
+            <option value="" selected disabled>Selecione o escopo da solução...</option>
+            <option value="Criação de site">Criação de site</option>
+            <option value="Automação com IA">Automação com IA</option>
+            <option value="Site e Automação">Site e Automação</option>
+          </select>
+          <svg class="chev" aria-hidden="true"><use href="#i-chev"/></svg>
+        </div>
+        <p class="field__error" id="err-type" hidden></p>
+      </div>
+
+      <div class="field" data-field="message">
+        <label class="field__label" for="f-message">Sua mensagem / desafio <span class="req" aria-hidden="true">*</span></label>
+        <textarea class="input" id="f-message" name="message" rows="3" maxlength="2000"
+                  placeholder="Me conte sobre sua empresa, sua ideia e o que gostaria de mudar ou criar."
+                  required aria-required="true" aria-describedby="err-message"></textarea>
+        <p class="field__error" id="err-message" hidden></p>
+      </div>
+
+      <!-- Anti-spam: campo-isca invisível + configurações do FormSubmit -->
+      <div class="hp" aria-hidden="true">
+        <label>Não preencha este campo <input type="text" name="_honey" tabindex="-1" autocomplete="off"></label>
+      </div>
+      <input type="hidden" name="_subject" value="Novo contato pelo site — Ana Paula Tech">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+
+      <p class="notice" id="form-error" role="alert" hidden></p>
+
+      <button class="btn btn--primary" id="submit-btn" type="submit">
+        <span class="btn__label">Enviar <span class="btn__em">E-MAIL</span></span>
+        <svg aria-hidden="true"><use href="#i-send"/></svg>
+      </button>
+    </form>
+
+    <div class="success" id="form-success" tabindex="-1" hidden>
+      <span class="success__icon" aria-hidden="true"><svg><use href="#i-check"/></svg></span>
+      <h3>E-mail enviado!</h3>
+      <p>Obrigada pelo contato. Recebi sua mensagem e vou responder o quanto antes.</p>
+      <button class="btn btn--ghost" id="send-another" type="button">Enviar outra mensagem</button>
+    </div>
+
+    <p class="divider" role="separator"><span>Ou conecte-se via</span></p>
+
+    <ul class="channels">
+      <li>
+        <a class="channel" href="https://www.linkedin.com/in/ana-paula-fernandes/?isSelfProfile=true" target="_blank" rel="noopener noreferrer">
+          <svg aria-hidden="true"><use href="#i-linkedin"/></svg>
+          <span>LinkedIn<span class="sr-only"> (abre em nova aba)</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="channel" href="https://github.com/ana-paula-fernandes" target="_blank" rel="noopener noreferrer">
+          <svg aria-hidden="true"><use href="#i-github"/></svg>
+          <span>GitHub<span class="sr-only"> (abre em nova aba)</span></span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="mail-line">
+      <div class="mail-line__text">
+        <span class="mail-line__label">Meu <span class="hl">E-mail</span></span>
+        <a class="mail-line__addr" href="mailto:anapaula.devcode@gmail.com">anapaula.devcode@gmail.com</a>
+      </div>
+      <button class="copy" id="copy-btn" type="button" aria-label="Copiar meu e-mail" data-email="anapaula.devcode@gmail.com">
+        <svg aria-hidden="true"><use href="#i-copy"/></svg>
+      </button>
+    </div>
+    <p class="sr-only" id="copy-status" role="status" aria-live="polite"></p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year">2026</span> Ana Paula. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
